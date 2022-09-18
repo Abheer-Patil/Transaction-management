@@ -62,7 +62,7 @@ public class Mycontroller
 	public Customer Withdraw(@PathVariable Double Lastwithdraw,@PathVariable int id)
 	{
 		Customer c1=ser.Withdraw(Lastwithdraw, id);
-		return c1;
+		return c1 ;
 	}
 	
 	@PutMapping("/deposit/{id}/{Lastdeposit}")
